@@ -1,0 +1,97 @@
+body{
+    background-image: url(..//img/1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+ul{
+    background-color:brown;
+    
+    
+}
+
+
+#menu{
+    background-color: black;
+    color: white;
+    opacity: 0.4;
+    text-align: center;
+    display: inline-flex;
+
+}
+
+
+#header li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 16px 0 0;
+    padding: 15px;
+    
+
+}
+
+#header a{
+    color :white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 10px;
+    transition: color 0.2s linear;
+    border-style:solid;
+    background-color: black;
+
+}
+
+#header :hover{
+    color : brown;
+    
+}
+li{
+    padding: 15px;
+}
+
+
+
+.parallax{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    right: 10%;
+    background-image: url(../img/academia-condomínio..jpg);
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+section h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding: 15%  50px 50px ;
+    
+}
+
+
+ #txt2{
+    color: maroon;
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+    right: 10px;
+    padding-top: 30%;
+    z-index: 1;
+    
+    
+
+}

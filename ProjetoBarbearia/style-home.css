@@ -1,0 +1,65 @@
+body {
+
+  background: #CCCCCC;
+  background-color: black;
+
+}
+
+img {
+
+  width:100%;
+}
+
+.principal{
+
+  background: #FFFFFF;
+  padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+    background-color: sienna
+
+}
+
+.titulocentralizado{
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+}
+
+em strong{
+    color: red;    
+
+}
+
+.parallax{ height: 800px; display: flex; width: 800%; align-items: center; background-image: url('../Front-end/img/barbearia.jpg'); background-size: cover; background-color: rgba(0,0,0,.35); background-blend-mode: multiply; background-attachment: fixed}
+.parallax span{font-size: 4em; color: #FFF;}
+
+.itens{
+
+  font-style: italic;
+}
+
+.beneficios{
+  background: #FFFFFF;
+  padding: 20px;  
+
+}
+
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+  
+}
+
+.imagembeneficios{
+  width: 50%;
+}
+
